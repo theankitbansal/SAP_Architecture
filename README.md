@@ -16,9 +16,23 @@ The SAP System Architecture consists of the Presentation, Application, and Datab
 ![SAP-Architecture-and-different-SAP-layers-800x682](https://user-images.githubusercontent.com/81725794/178094266-4a92fff8-8f20-4749-8203-9473c705270f.png)
 
 Presentation Layer
+
 The presentation layer is responsible for the user experience and for making sure that the SAP system is responsive and easy to interact with. The presentation layer does not have any knowledge of the underlying data stored in the data layer. The data layer holds all the data that is being stored in the SAP system. The data layer is the realm where all the business rules and processes take place. The data layer exists between the presentation layer and the application server. When you connect to the application server and start to do work, the application server, which is the realm where all the logic happens, knows nothing about the data layer.
 ![Presentation-Layer](https://user-images.githubusercontent.com/81725794/178094293-b8368eb8-10ea-4363-ac21-9a89bef5a776.png)
 
 
 Application Layer
+
 This layer of the architecture is responsible for receiving and parsing data, before it can be used by any part of the organization. This layer is also responsible for providing data with in the correct format for each application. The last responsibility of the application layer is to ensure that the data is secure, before it is sent to the next layer. This layer of the architecture is a critical component to the success of your digital transformation. The work process must be carried out by a user who is registered in the system. For this reason, we define the work process as a user of the system. The work process will register itself in the database, and when it is required to create a new record in the system, this is done by the work process. The work process can be created by the system administrator through the SAP system. In the case of the SAP system, this can be done by setting the role of the user to a specific value. What happens when you do this is that the SAP system will create a new user in the database system. This user will register itself in the database, and when the system needs to create a new record, the user can do this. The user will create the work process, and when the system requires the work process to create a new record, the user will create the process.
+
+Database Layer
+
+The system architecture is what defines how your SAP system is set up. If you were setting up a new company, you would choose a system architecture based on the type of business you want to start. For example, a manufacturer of motorcycles and scooters would be best served by a system architecture that focuses on production and inventory. A hotel would do best with a system architecture that focuses on customer relations. Once you have chosen the setting for your new company, you need to choose the SAP system architecture. The application and database layers receive information about actions performed on the presentation layer and then query the results. As a result, you can see the results of processing on the presentation layer.
+![Database-Layer-800x800](https://user-images.githubusercontent.com/81725794/178647363-5c59b91f-7b45-4229-845e-bd3cdc5426f9.png)
+
+SAP Architecture Components
+
+The SAP R/3 3-tier Architecture is a popular application server topology for developing large-scale enterprise applications. With the increased use of web-based technologies and the ever-increasing importance of user experience, application servers are being replaced by web-based applications. However, there are certain situations where the usage of web-based applications is not possible, due to the size of the system, regulatory compliance, or other business reasons. In such cases, the usage of 3-tier application servers is unavoidable. The most common application server topology is the SAP R/3 3-tier Architecture.
+![SAP-Architecture-Components-800x642](https://user-images.githubusercontent.com/81725794/178647409-65289d62-d70b-4fd1-96eb-10822b8b428d.png)
+
+
