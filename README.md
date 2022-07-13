@@ -57,4 +57,9 @@ The following describes types of work processes:
 
 When using the ABAP and Java systems, we use another component called a JCO to handle communication with the abap dispatchers. ABP+Java uses Java dispatchers to handle communication.
 
+How Does the SAP Process Work?
+
+The SAP Logon process is the first step of the SAP authorization process. This is a simple process which involves entering the identification number that you were assigned when you created an account with SAP. After this, you will be asked to provide your SAP password. After you successfully enter your SAP password, you will be sent a confirmation message confirming your successful logon. From here, you will be able to access the main menu of SAP. Although the process may seem simple at first glance, it can sometimes be challenging to perform correctly. Therefore, it is recommended that users practice logging in before conducting business-critical activities such as signing contracts or performing transactions.
+![How-does-the-SAP-Process-work-800x742](https://user-images.githubusercontent.com/81725794/178647888-71e18c6a-a222-4e67-8680-c8dabb8dfd64.png)
+
 
