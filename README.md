@@ -35,4 +35,14 @@ SAP Architecture Components
 The SAP R/3 3-tier Architecture is a popular application server topology for developing large-scale enterprise applications. With the increased use of web-based technologies and the ever-increasing importance of user experience, application servers are being replaced by web-based applications. However, there are certain situations where the usage of web-based applications is not possible, due to the size of the system, regulatory compliance, or other business reasons. In such cases, the usage of 3-tier application servers is unavoidable. The most common application server topology is the SAP R/3 3-tier Architecture.
 ![SAP-Architecture-Components-800x642](https://user-images.githubusercontent.com/81725794/178647409-65289d62-d70b-4fd1-96eb-10822b8b428d.png)
 
+1. The role of the Message Server is to handle communication between ABAP Dispatchers that are distributed across the system.
+2. In this Dispatcher queue, process work of several different types is stored.
+3. Work processes are allocated by the dispatcher.
+4. Gateway provides access between SAP systems and external systems.
+5. Each R/3 dialog step is separately executed by ABAP-Work processes.
+
+The following describes types of work processes:
+![SAP-Architecture-Components2-800x485](https://user-images.githubusercontent.com/81725794/178647606-90e33959-120b-4ee7-b13b-05c2dee00665.png)
+
+
 
