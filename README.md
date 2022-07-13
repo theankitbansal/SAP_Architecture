@@ -44,5 +44,17 @@ The SAP R/3 3-tier Architecture is a popular application server topology for dev
 The following describes types of work processes:
 ![SAP-Architecture-Components2-800x485](https://user-images.githubusercontent.com/81725794/178647606-90e33959-120b-4ee7-b13b-05c2dee00665.png)
 
+1. An ICM work process can communicate with an ABAP work process via a memory-pipe.
+2. The java dispatcher and server processes are handled by the Message Server. Within the java runtime environment, the Message Server enables communication.
+3. A server process is configured by a Java application program to handle logical locks. The queue server handles them.
+4. The central services are used to manage locks and transmit messages and data when working in a Java cluster. Java clusters are sets of cooperating processes that create a dependable system. A group of resources, such as memory, work processes, and so on, is known as an instance.
+5. The Dispatcher handles the incoming client requests and dispatches them to the correct server process.
+6. To install J2EE components using SDM, you must first download and install Software Deployment Manager.
+7. A high quantity of requests can be handled by a Java Server Process.
+8. Threading refers to the method of processing multiple items at once in the background.
+9. SAP can be accessed from a browser by entering the system’s URL. Because of this, ICM can also be used for communication.
+
+
+When using the ABAP and Java systems, we use another component called a JCO to handle communication with the abap dispatchers. ABP+Java uses Java dispatchers to handle communication.
 
 
